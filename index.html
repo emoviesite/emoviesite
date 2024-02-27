@@ -112,7 +112,7 @@
         function showPopup() {
             const contentHeight = document.querySelector('.content').clientHeight;
             const scrollPosition = window.scrollY;
-            const triggerPoint = contentHeight * 0.37; // 37% of the content height
+            const triggerPoint = contentHeight * 0.30; // 30% of the content height
 
             if (scrollPosition > triggerPoint && scrollPosition > lastScrollTop) {
                 if (!scrolled) {
